@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 //Arquivo que possui dados das requests
 
-const API_KEY = 'f59919f4eb0a59062845f512a057f92a'
+//const API_KEY = 'f59919f4eb0a59062845f512a057f92a'
 const API_BASE = 'https://api.themoviedb.org/3'
 
 
