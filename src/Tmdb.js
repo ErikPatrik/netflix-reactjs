@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 //Arquivo que possui dados das requests
 
-//const API_KEY = 'f59919f4eb0a59062845f512a057f92a'
+const API_KEY = 'f59919f4eb0a59062845f512a057f92a'
 const API_BASE = 'https://api.themoviedb.org/3'
 
 
@@ -13,7 +13,6 @@ const basicFetch = async (endpoint) => {
     const json = await req.json()
     return json
 }
-
 
 //exporta json com as funções que precisamos para pegar as informações
 // - Pegar series das netflix originais
@@ -62,7 +61,7 @@ export default {
             {
                 slug: 'documentary',
                 title: 'Documentário',
-                items: await basicFetch(`/discover/movie?with_genres=999&language=pt-BR&api_key=${API_KEY}`)
+                items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
             }
         ]
     },
